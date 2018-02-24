@@ -9,7 +9,7 @@ def line(katz_deli)
   katz_deli.collect  |names| 
     
     number += 1
-    name.push("Welcome ")
+    name.push("Welcome, ")
   
   
   return name
