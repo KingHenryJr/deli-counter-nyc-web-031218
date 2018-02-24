@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, new_name)
   katz_deli.push(new_name)
-  
+  puts "Welcome, "
   
   
 end
