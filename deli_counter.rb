@@ -8,11 +8,11 @@ def line(katz_deli)
   
   katz_deli.each { |names| 
     name.push(names)
-    
+    number += 1
   }
   
   
-  return "The line is currentyl: "
+  return "The line is currently: #{number}. #{name}"
   
 end
 
