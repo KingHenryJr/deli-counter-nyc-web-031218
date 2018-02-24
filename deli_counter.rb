@@ -12,7 +12,7 @@ def line(katz_deli)
   end
   return current_line
 end
-
+end
 
 def take_a_number(katz_deli, new_name)
   katz_deli.push(new_name)
