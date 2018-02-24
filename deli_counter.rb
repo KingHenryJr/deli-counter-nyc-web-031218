@@ -6,10 +6,10 @@ def line(katz_deli)
   number = 0
   name = []
   
-  katz_deli.collect { |names| 
+  katz_deli.collect  |names| 
     name.push(names)
     number += 1
-  }
+  
   
   
   return "The line is currently: #{number}. #{name}"
