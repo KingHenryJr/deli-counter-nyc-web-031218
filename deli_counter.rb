@@ -6,7 +6,7 @@ def line(katz_deli)
   number = 0
   name = []
   
-  katz_deli.each 
+  katz_deli.each {|names| }
   kat
   
 end
