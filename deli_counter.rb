@@ -7,9 +7,9 @@ def line(katz_deli)
   name = []
   
   katz_deli.collect  |names| 
-    name.push(names)
+    
     number += 1
-  
+    name.push(names)
   
   
   return "The line is currently: #{number}. #{name}"
