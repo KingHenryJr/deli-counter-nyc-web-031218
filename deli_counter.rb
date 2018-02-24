@@ -4,8 +4,10 @@ katz_deli = []
 
 def line(katz_deli)
   number = 0
+  name = []
   
-  
+  katz_deli.each 
+  kat
   
 end
 
