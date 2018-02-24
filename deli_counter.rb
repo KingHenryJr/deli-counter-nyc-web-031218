@@ -8,7 +8,7 @@ def line(another_deli)
  else
    message = "The line is currently: "
    katz_deli.each_with_index(1) do |value, index| 
-     message += "#{index}. #{value}"
+     message += "#{index.to_int}. #{value}"
   end
   puts message
  end
