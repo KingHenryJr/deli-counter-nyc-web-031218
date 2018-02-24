@@ -11,7 +11,7 @@ def line(katz_deli)
      current_line << "#{i}. #{name}"
   end
   return current_line
-end
+ end
 end
 
 def take_a_number(katz_deli, new_name)
