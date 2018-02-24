@@ -10,7 +10,7 @@ def line(katz_deli)
    katz_deli.each_with_index(1) do |name, i| 
      current_line << "#{i}. #{name}"
   end
-  return current_line
+  puts current_line
  end
 end
 
