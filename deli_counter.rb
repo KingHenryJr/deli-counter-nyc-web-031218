@@ -14,8 +14,8 @@ end
 
 
 def take_a_number(katz_deli, new_name)
-  number = 0
   katz_deli.push(new_name)
+  
   
   
 end
