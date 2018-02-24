@@ -7,11 +7,21 @@ def line(katz_deli)
   name = []
   katz_deli.collect  |names| 
     number += 1
-    name.push("Welcome, #{names}. You are number #{number} in line.")
+    name.push("The line is currently: #{number}. #{name}")
   end
   return name
 end
 
+
+def take_a_number(katz_deli, new_name)
+  number = 0
+  katz_deli.push(new_name)
+  
+  
+end
+  
+  
+  
 
 
 
