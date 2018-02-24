@@ -10,7 +10,7 @@ def line(katz_deli)
    katz_deli.each_with_index(1) do |value, index| 
      message += "#{index}. #{value}"
   end
-  puts current_line
+  puts message
  end
 end
 
