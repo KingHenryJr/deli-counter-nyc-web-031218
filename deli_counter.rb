@@ -9,10 +9,10 @@ def line(katz_deli)
   katz_deli.collect  |names| 
     
     number += 1
-    name.push(names)
+    name.push("Welcome ")
   
   
-  return "The line is currently: #{number}. #{name}"
+  return name
   
 end
 
